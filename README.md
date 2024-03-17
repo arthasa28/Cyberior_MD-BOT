@@ -10,11 +10,26 @@
 ## Install
 
 ```bash
-npm i  
-
-npm start
+sudo apt install unzip 
 ```
-
+```bash
+sudo apt install zip
+```
+```bash
+sudo apt install webp
+```
+```bash
+sudo apt install ffmpeg
+```
+```bash
+sudo apt install nodejs
+```
+```bash
+unzip 
+```
+```bash
+npm i
+```
 
 ## Donate
 - [Saweria](https://saweria.co/arthasyarif)
