@@ -7,7 +7,7 @@
 <img src="https://github.com/zeeoneofficial/Haruka-Md/blob/v1/media/Haruka.jpg" alt="CYBERIR-MD" width="100"/>
 
 
-## Install
+## Install For VPS ( Linux, Ubuntu, Debian, Kali Linux )
 
 ```bash
 sudo apt install unzip 
