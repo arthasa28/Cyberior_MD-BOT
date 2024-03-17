@@ -25,10 +25,19 @@ sudo apt install ffmpeg
 sudo apt install nodejs
 ```
 ```bash
-unzip 
+sudo apt install npm
+```
+```bash
+unzip Cyberior-MD_BETA.zip
+```
+```bash
+cd Cyberior-MD_BETA
 ```
 ```bash
 npm i
+```
+```bash
+npm start
 ```
 
 ## Donate
