@@ -86,15 +86,6 @@ Jalankan BOT
 ```bash
 npm start
 ```
-</br>
-## Jalankan Selamanya Di Backround
-```bash
-npm install forever -g
-```
-
-```bash
-forever start haruka.js
-```
 
 ## Donate
 - [Saweria](https://saweria.co/arthasyarif)
