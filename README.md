@@ -101,6 +101,10 @@ Jalankan Perintah dibawah ini untuk menjalankan BOT NON-STOP
 ```bash
 forever start index.js
 ```
+Menghentikan BOT 
+```bash
+forever stop index.js
+```
 
 </br>
 
