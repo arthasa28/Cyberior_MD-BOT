@@ -22,6 +22,9 @@ sudo apt install webp
 sudo apt install ffmpeg
 ```
 ```bash
+sudo apt install imagemagick
+```
+```bash
 sudo apt install nodejs
 ```
 ```bash
