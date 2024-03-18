@@ -10,25 +10,24 @@
 ## Install For VPS ( Linux, Ubuntu, Debian, Kali Linux )
 
 ```bash
-sudo apt install unzip 
+sudo su
 ```
 ```bash
-sudo apt install zip
+nano /etc/apt/source.list
+```
+Copy Lalu Paste di Source List, abis itu save, CTRL + X lalu y dan enter
+```bash
+deb http://ap-southeast-1.ec2.archive.ubu... focal main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubu... focal-updates main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubu... focal-security main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubu... focal-backports main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubu... focal-proposed main restricted universe multiverse
 ```
 ```bash
-sudo apt install webp
+sudo apt update -y && apt upgrade -y
 ```
 ```bash
-sudo apt install ffmpeg
-```
-```bash
-sudo apt install imagemagick
-```
-```bash
-sudo apt install nodejs
-```
-```bash
-sudo apt install npm
+sudo apt install unzip zip webp ffmpeg imagemagick
 ```
 ```bash
 unzip Cyberior-MD_BETA.zip
