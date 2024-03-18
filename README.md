@@ -110,11 +110,7 @@ forever stop index.js
 
 ## Jika NPM & NODEJS sudah di install tapi di suruh install lagi, jalankan perintah di bawah ini
 ```bash
-sudo apt update -y && apt upgrade -y
-```
-Jalankan BOT
-```bash
-npm start
+source ~/.profile
 ```
 
 
