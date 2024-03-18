@@ -70,15 +70,19 @@ Masuk Ke Folder Cyberior_MD-BOT
 ```bash
 cd Cyberior_MD-BOT 
 ```
+Extract File Cyberior-MD_BETA.zip
 ```bash
 unzip Cyberior-MD_BETA.zip
 ```
+Masuk Ke Directory Cyberior-MD_BETA
 ```bash
 cd Cyberior-MD_BETA
 ```
+Install Module NODEJS di Directory Cyberior-MD_BETA
 ```bash
 npm i
 ```
+Jalankan BOT
 ```bash
 npm start
 ```
