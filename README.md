@@ -88,7 +88,23 @@ npm start
 ```
 </br>
 
-Jika NPM & NODEJS sudah di install tapi di suruh install lagi, jalankan perintah di bawah ini
+## Menjalankan BOT Di Backround 24Jam FULL ON
+Install Plugin di Folder BOTnya
+```bash
+npm install forever -g
+```
+Jalankan BOT Lalu Scan Barkotnya, Jika sudah scan barkotnya Matikan BOTnya dengan cara CTRL + C
+```bash
+npm start
+```
+Jalankan Perintah dibawah ini untuk menjalankan BOT NON-STOP
+```bash
+forever start index.js
+```
+
+</br>
+
+## Jika NPM & NODEJS sudah di install tapi di suruh install lagi, jalankan perintah di bawah ini
 ```bash
 sudo apt update -y && apt upgrade -y
 ```
@@ -96,6 +112,8 @@ Jalankan BOT
 ```bash
 npm start
 ```
+
+
 
 ## Donate
 - [Saweria](https://saweria.co/arthasyarif)
