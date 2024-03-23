@@ -31,7 +31,7 @@ sudo apt update -y && apt upgrade -y
 ```
 Install Plugin
 ```bash
-sudo apt install unzip zip webp libwebp mc yarn ffmpeg imagemagick git -y
+sudo apt install unzip zip webp mc yarn ffmpeg imagemagick git -y
 ```
 Masuk ke folder Home ( Opsional )
 ```bash
