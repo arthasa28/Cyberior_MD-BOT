@@ -19,11 +19,11 @@ nano /etc/apt/source.list
 ```
 Copy Lalu Paste di Source List, abis itu save, CTRL + X lalu y dan enter
 ```bash
-deb http://ap-southeast-1.ec2.archive.ubu... focal main restricted universe multiverse
-deb http://ap-southeast-1.ec2.archive.ubu... focal-updates main restricted universe multiverse
-deb http://ap-southeast-1.ec2.archive.ubu... focal-security main restricted universe multiverse
-deb http://ap-southeast-1.ec2.archive.ubu... focal-backports main restricted universe multiverse
-deb http://ap-southeast-1.ec2.archive.ubu... focal-proposed main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+deb http://ap-southeast-1.ec2.archive.ubuntu.com/ubuntu/ focal-proposed main restricted universe multiverse
 ```
 Update & Upgrade Repo
 ```bash
