@@ -64,11 +64,11 @@ source ~/.profile
 ```
 Lalu Clone Repo Ke Folder Home ( VPS )
 ```bash
-git clone https://github.com/arthasa28/bot
+git clone https://github.com/arthasa28/Cyberior_MD-BOT
 ```
 Masuk Ke Folder Cyberior_MD-BOT 
 ```bash
-cd bot
+cd Cyberior_MD-BOT
 ```
 Extract File Cyberior-MD_BETA.zip
 ```bash
