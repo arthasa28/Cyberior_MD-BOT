@@ -64,19 +64,19 @@ source ~/.profile
 ```
 Lalu Clone Repo Ke Folder Home ( VPS )
 ```bash
-git clone https://github.com/arthasa28/Cyberior_MD-BOT
+git clone https://github.com/arthasa28/bot
 ```
 Masuk Ke Folder Cyberior_MD-BOT 
 ```bash
-cd Cyberior_MD-BOT 
+cd bot
 ```
 Extract File Cyberior-MD_BETA.zip
 ```bash
-unzip Cyberior-MD_BETA.zip
+unzip bot.zip
 ```
 Masuk Ke Directory Cyberior-MD_BETA
 ```bash
-cd Cyberior-MD_BETA
+cd bot
 ```
 Install Module NODEJS di Directory Cyberior-MD_BETA
 ```bash
