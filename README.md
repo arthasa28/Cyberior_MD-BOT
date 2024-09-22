@@ -109,6 +109,21 @@ Menghentikan BOT
 ```bash
 pm2 stop index.js
 ```
+</br>
+<strong>Tambahan....</strong>
+
+Untuk melihat status bot
+```bash
+pm2 status
+```
+Me-restart bot secara manual
+```bash
+pm2 restart index.js
+```
+Untuk Memonitoring Bot
+```bash
+pm2 logs
+```
 
 </br>
 
