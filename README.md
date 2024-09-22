@@ -91,19 +91,23 @@ npm start
 ## Menjalankan BOT Di Backround 24Jam FULL ON
 Install Plugin di Folder BOTnya
 ```bash
-npm install forever -g
+npm install pm2 -g
 ```
-Jalankan BOT Lalu Scan Barkotnya, Jika sudah scan barkotnya Matikan BOTnya dengan cara CTRL + C
+Anda bisa menjalankan bot WhatsApp dengan PM2 agar berjalan nonstop.
 ```bash
-npm start
+pm2 start index.js
 ```
-Jalankan Perintah dibawah ini untuk menjalankan BOT NON-STOP
+Untuk memastikan bot berjalan terus-menerus meski server reboot
 ```bash
-forever start index.js
+pm2 startup
 ```
+```bash
+pm2 save
+```
+
 Menghentikan BOT 
 ```bash
-forever stop index.js
+pm2 stop index.js
 ```
 
 </br>
